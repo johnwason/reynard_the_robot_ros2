@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>reynard_the_robot_ros2</name>
+  <version>0.1.0</version>
+  <description>The reynard_the_robot_ros2 package</description>
+
+  <maintainer email="wason@wasontech.com">John Wason</maintainer>
+
+  <license>Apache-2.0</license>
+
+  <url type="website">https://github.com/johnwason/reynard_the_robot_ros</url>
+
+  <author email="wason@wasontech.com">John Wason</author>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>reynard_the_robot_ros2_msgs</depend>
+  
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

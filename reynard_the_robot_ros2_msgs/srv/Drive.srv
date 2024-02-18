@@ -1,0 +1,6 @@
+float64[] velocity
+float64 timeout
+bool wait
+---
+bool success
+string status_message

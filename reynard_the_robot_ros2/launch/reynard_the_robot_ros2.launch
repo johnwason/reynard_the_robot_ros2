@@ -1,0 +1,4 @@
+<launch>
+  <node name="reynard_the_robot_node" pkg="reynard_the_robot_ros2" exec="reynard_the_robot_ros2" namespace="reynard" output="screen" >
+  </node>
+</launch>
